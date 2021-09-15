@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <item
+        android:id="@+id/admin_dasboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_baseline_dashboard_24"/>
+    <item
+        android:id="@+id/admin_home"
+        android:title="Profile"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item
+        android:id="@+id/admin_delete"
+        android:title="Remove a user"
+        android:icon="@drawable/ic_baseline_person_remove_24"/>
+    <item
+        android:id="@+id/view_student"
+        android:title="View student Info"
+        android:icon="@drawable/ic_baseline_search_24"/>
+
+    <item
+        android:id="@+id/admin_thesis"
+        android:title="Register a theses"
+        android:icon="@drawable/ic_baseline_book_online_24"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"/>
+
+</menu>

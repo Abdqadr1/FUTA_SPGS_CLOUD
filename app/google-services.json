@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "645647462684",
+    "project_id": "d-cloud-database",
+    "storage_bucket": "d-cloud-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:645647462684:android:9a351bee64ddf673da8ad9",
+        "android_client_info": {
+          "package_name": "com.qadr.clouddatabasesystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "645647462684-mchph8eqsvls9djmvvh4vou7qnbuco6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPFTwH4B9Qak89Ct2K3suaKKbxpJXybFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "645647462684-mchph8eqsvls9djmvvh4vou7qnbuco6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
