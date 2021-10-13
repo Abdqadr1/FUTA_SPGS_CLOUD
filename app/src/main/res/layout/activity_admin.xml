@@ -46,6 +46,8 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:headerLayout="@layout/header"
+        app:itemTextColor="#3619B8"
+        app:itemIconTint="#5728AC"
         app:menu="@menu/admin_menu"/>
 
 
