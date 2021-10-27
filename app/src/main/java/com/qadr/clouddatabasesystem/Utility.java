@@ -61,7 +61,7 @@ public class Utility {
                 if(task1.isSuccessful()){
                     Toast.makeText(context, "Thesis Registered successfully", Toast.LENGTH_SHORT).show();
                     time.set(new Date().getTime() - time.get());
-                    Toast.makeText(context, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(context, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
 
                 } else {
                     ret.set(false);

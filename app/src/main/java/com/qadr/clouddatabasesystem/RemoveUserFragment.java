@@ -85,7 +85,7 @@ public class RemoveUserFragment extends Fragment {
                         info_layout.setVisibility(View.GONE);
                         time = new Date().getTime() - time;
                         Toast.makeText(getContext(), "User removed successfully", Toast.LENGTH_SHORT).show();
-                        Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                        Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
                     }else {
                         Log.e("ERROR", "error deleting user: ", task.getException());
                     }

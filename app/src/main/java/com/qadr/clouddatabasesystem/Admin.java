@@ -115,7 +115,7 @@ public class Admin extends AppCompatActivity implements AdminInterface, ThesisCh
                 fragmentManager.beginTransaction().replace(frameLayout.getId(), new AdminDashboardFragment(), null).commit();
                 Log.d("GET TAG", "DocumentSnapshot data: " + task.getResult());
                 time = new Date().getTime() - time;
-                Toast.makeText(Admin.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(Admin.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
             }else {
                     Log.e("ERROR", "error getting admin document", task.getException());
                 Utility.cancelDialog();

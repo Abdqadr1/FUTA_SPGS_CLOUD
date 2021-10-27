@@ -132,7 +132,7 @@ public class StaffViewFragment extends Fragment {
                                            Log.e("ERROR", "error getting thesis: ", task2.getException());
                                        }
                                         time = new Date().getTime() - time;
-                                        Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                                        Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
                                     });
                                 }else {
                                     Log.e("Error", "getStudent: ", task.getException());

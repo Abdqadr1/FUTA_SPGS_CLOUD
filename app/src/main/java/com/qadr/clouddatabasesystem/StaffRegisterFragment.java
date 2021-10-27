@@ -139,7 +139,7 @@ public class StaffRegisterFragment extends Fragment {
                             Intent intent = new Intent(getContext(), Staff.class);
                             intent.putExtra("uid", user.getUid());
                             time = new Date().getTime() - time;
-                            Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                            Toast.makeText(getContext(), "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
                             startActivity(intent);
                         }else {
                             Exception e = task1.getException();

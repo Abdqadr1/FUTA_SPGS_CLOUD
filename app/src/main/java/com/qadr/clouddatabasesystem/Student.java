@@ -111,7 +111,7 @@ public class Student extends AppCompatActivity implements StudentInterface, Thes
                 headerText.setText(name);
                 fragmentManager.beginTransaction().replace(frameLayout.getId(), new StudentDashboardFragment(), null).commit();
                 time = new Date().getTime() - time;
-                Toast.makeText(Student.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(Student.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
             }else {
                 Log.e("ERROR", "error getting student document", task.getException());
             }

@@ -109,7 +109,7 @@ public class Staff extends AppCompatActivity implements StaffInterface{
                 fragmentManager.beginTransaction().replace(frameLayout.getId(), new StaffDashboardFragment(), null).commit();
                 Log.d("GET TAG", "DocumentSnapshot data: " + task.getResult());
                 time = new Date().getTime() - time;
-                Toast.makeText(Staff.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(Staff.this, "TIME_TAKEN = " + time, Toast.LENGTH_SHORT).show();
             }else {
                 Exception e = task.getException();
                 if (e instanceof FirebaseFunctionsException) {
